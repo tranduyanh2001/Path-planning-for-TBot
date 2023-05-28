@@ -1,0 +1,13 @@
+//created sat func()
+double sat(double x, double max_x){
+    if (x > max_x){
+        return max_x;
+    }
+    else if (x < -max_x)
+    {
+        return -max_x;
+    }
+    else{
+        return x;
+    }
+}
